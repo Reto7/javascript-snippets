@@ -1,6 +1,6 @@
 2 Repositories:
 
-a) ueli         git pull ueli / git push ueli
+a) ueli         git pull ueli master
 b) origin       git push origin / git push origin
 
 

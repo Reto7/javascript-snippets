@@ -28,4 +28,5 @@ console.log(division(2, 2));
 var nichts = operationenFabrik('nichts');
 console.log(nichts(2, 2));
 
-console.log
+console.log("-----------------direktaufruf---ohne---variable-----")
+console.log(operationenFabrik('addition')(1,2))

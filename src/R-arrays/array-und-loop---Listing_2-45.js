@@ -39,6 +39,13 @@ alben.forEach(function(interpret, index, alben) {
     console.log(interpret.titel);
 });
 
+// oder bei simplen array:
+let phrase = "Please enter password:";
+let phraseArray = [...phrase];
+phraseArray.forEach(function(entry) {
+    console.log(entry);
+});
+
 //------------------------------------
 //funktional: filter
 //------------------------------------

@@ -10,7 +10,7 @@ origin  https://github.com/Reto7/javascript-snippets (push)
 upstream        https://github.com/ibwgr/javascript-snippets (fetch)
 upstream        https://github.com/ibwgr/javascript-snippets (push)
 ----------------------------
-$ git pull upstream master
+$ git pull upstream master         von Ueli
 ----------------------------
-$ git pull (origin)
+$ git pull (origin)                von mir
 $ git push (origin)

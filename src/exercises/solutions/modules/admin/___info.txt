@@ -1,0 +1,3 @@
+via admin.module.js wird das ganze "Package" nach aussen exponiert
+der client importiert dann nur von admin.module.js - er muss sich nicht um person.js oder store.js kuemmern
+

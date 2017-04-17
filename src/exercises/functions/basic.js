@@ -5,3 +5,6 @@
 // 1.3 Verändere die Funktion so, dass man soviele Namen man will mitgeben kann. Die Ausgabe ist dann "Hallo <name1>, <name2>, ..."
 //     Als Default soll immer noch Welt gelten.
 //     Versuche zwei Lösungsvarianten zu finden (Hint: Rest-Parameter)
+
+
+// https://titanpad.com/oL54qP4dS2

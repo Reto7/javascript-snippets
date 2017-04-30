@@ -4,7 +4,8 @@
 'use strict'
 
 
-// TODO  zur Laufzeit : SyntaxError: Unexpected token import  ??  ES6 Problem...
+// zur Laufzeit : SyntaxError: Unexpected token import  ??  ES6 Problem...
+// import durch gulp browserfiy aufloesen!
 import {Auto, Reperatur} from './Autowerkstatt/AutowerkstattPublic'
 
 let meinBmw = new Auto("BMW",180,"rot")

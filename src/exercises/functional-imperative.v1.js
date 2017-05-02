@@ -8,7 +8,7 @@ console.log("------------------------------------")
 let arrayAufgabe1 = [1,2,3]
 
 
-// (A) FUNKTIONAL
+// (A) IMPERATIV
 let sumA = 0;
 for (let i=0; i<arrayAufgabe1.length; i++) {
     //console.log("A:" +arrayAufgabe1[i]);
@@ -17,9 +17,9 @@ for (let i=0; i<arrayAufgabe1.length; i++) {
 }
 console.log("Summe (A): " + sumA);
 
-// (B) IMPERATIV
+// (B) FUNKTIONAL
 let sumB = 0;
-for (let zahl of arrayAufgabe1){    // TODO ... ??? wieso von 0 startend ???
+for (let zahl of arrayAufgabe1){    //  ... ??? wieso von 0 startend ???  weil IN anstatt OF
     // keine Ahnung wieso, muss in Number konvertiert werden, sonst ist das Gesamtresultat "0012" ...
     zahl = Number(zahl);
     //console.log("B:" +zahl);
@@ -29,7 +29,7 @@ for (let zahl of arrayAufgabe1){    // TODO ... ??? wieso von 0 startend ???
 console.log("Summe (B): " + sumB);
 
 
-// (B2) IMERATIV Loesung von Ueli --> da gibt es auch "0012" zurueck, zum Glueck auch falsch...
+// (B2) FUNKTIONAL Loesung von Ueli --> da gibt es auch "0012" zurueck, zum Glueck auch falsch...
 let sum = (arr)=>{
     let summe = 0
     for(let val in arr){
@@ -52,7 +52,7 @@ console.log("Summe (B2): " + s);
 console.log("------------------------------------")
 let zahlenArray = [1,2,3,4,5]
 
-// (A) FUNKTIONAL
+// (A) IMPERATIV
 let loesungsArrayA = [];
 for (let i=0; i<zahlenArray.length; i++) {
     //console.log("A:" + zahlenArray[i]);
@@ -66,9 +66,9 @@ for (let i=0; i<zahlenArray.length; i++) {
 }
 console.log("LoesungsArray (A): " + loesungsArrayA);
 
-// (B) IMPERATIV
+// (B) FUNKTIONAL
 let loesungsArrayB = [];
-for (let z of zahlenArray) {  // TODO ... ??? wieso von 0 startend ???
+for (let z of zahlenArray) {  // ??? wieso von 0 startend ??? weil IN anstatt OF
     //console.log("B:" + z);
     loesungsArrayB.push(z);
     if (z % 2 === 0) {   //  % modulo
@@ -80,7 +80,7 @@ for (let z of zahlenArray) {  // TODO ... ??? wieso von 0 startend ???
 }
 console.log("LoesungsArray (B): " + loesungsArrayB);
 
-// (B2) IMERATIV Loesung von Ueli: ok
+// (B2) FUNKTIONAL Loesung von Ueli: ok
 let even = (arr)=>{
     let result = [],
         isEven

@@ -35,17 +35,17 @@ for (let x of reverseIterator1(arr) ) {
 
 console.log('-2-v1-----------------------')
 // 1-v2
-class Klasse {
-    constructor(myArray) {
-        this.myArray = myArray
-    }
-
-    [Symbol.iterator](){}
-
-}
-
-let k1 = new Klasse(arr)
-console.log(arr.length)
+// class Klasse {
+//     constructor(myArray) {
+//         this.myArray = myArray
+//     }
+//
+//     [Symbol.iterator](){}
+//
+// }
+//
+// let k1 = new Klasse(arr)
+// console.log(arr.length)
 // for (let x of arr){
 //     console.log(x)
 // }
